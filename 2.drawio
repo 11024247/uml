@@ -1,0 +1,261 @@
+<mxfile host="app.diagrams.net" modified="2023-10-30T09:40:03.528Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/118.0.0.0 Safari/537.36" etag="oVk7QQzEJqTv9P4qkLVE" version="22.0.8" type="google">
+  <diagram name="第 1 页" id="_lsaxh977mbA22psm3U9">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="cUD_TYmZiEuborudRk19-5" value="ClassDiagram" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="80" width="110" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-6" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="cUD_TYmZiEuborudRk19-5">
+          <mxGeometry y="26" width="110" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-7" value="Relation" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="120" width="90" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="cUD_TYmZiEuborudRk19-7">
+          <mxGeometry y="26" width="90" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-9" value="Thing" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="60" width="86" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="cUD_TYmZiEuborudRk19-9">
+          <mxGeometry y="26" width="86" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-11" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.016;entryY=0.398;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="cUD_TYmZiEuborudRk19-5" target="cUD_TYmZiEuborudRk19-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="140" y="90" as="sourcePoint" />
+            <mxPoint x="300" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-14" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=0;edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="cUD_TYmZiEuborudRk19-5" target="cUD_TYmZiEuborudRk19-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="99" as="sourcePoint" />
+            <mxPoint x="249" y="84" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-15" value="(空心稜形)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="50" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-16" value="類圖包含有事物&lt;br&gt;和關係，類圖不&lt;br&gt;存在了，事物和&lt;br&gt;關係還可用於其&lt;br&gt;它的類圖" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="340" y="60" width="110" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-18" value="Class" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="190" width="86" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="cUD_TYmZiEuborudRk19-18">
+          <mxGeometry y="26" width="86" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-20" value="Association" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="244" y="190" width="86" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-21" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="cUD_TYmZiEuborudRk19-20">
+          <mxGeometry y="26" width="86" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-22" value="(實心稜形)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="140" y="180" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-23" value="" style="endArrow=open;html=1;endSize=12;startArrow=diamondThin;startSize=14;startFill=1;edgeStyle=orthogonalEdgeStyle;align=left;verticalAlign=bottom;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="cUD_TYmZiEuborudRk19-18" target="cUD_TYmZiEuborudRk19-20">
+          <mxGeometry x="-1" y="3" relative="1" as="geometry">
+            <mxPoint x="120" y="210" as="sourcePoint" />
+            <mxPoint x="270" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-24" value="類與關連關係之間&lt;br&gt;有組合關係，類不&lt;br&gt;存在了，則相應的&lt;br&gt;關聯關係也不存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="340" y="190" width="120" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-25" value="Relation" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="290" width="86" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-26" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="cUD_TYmZiEuborudRk19-25">
+          <mxGeometry y="26" width="86" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-27" value="Association" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="370" width="86" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-28" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="cUD_TYmZiEuborudRk19-27">
+          <mxGeometry y="26" width="86" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-29" value="Generalization" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="118" y="370" width="86" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-30" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="cUD_TYmZiEuborudRk19-29">
+          <mxGeometry y="26" width="86" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-31" value="Realization" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="370" width="86" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="cUD_TYmZiEuborudRk19-31">
+          <mxGeometry y="26" width="86" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-33" value="Dependency" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="370" width="86" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-34" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="cUD_TYmZiEuborudRk19-33">
+          <mxGeometry y="26" width="86" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-35" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.549;exitY=-0.042;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="cUD_TYmZiEuborudRk19-27" target="cUD_TYmZiEuborudRk19-25">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="210" y="360" as="sourcePoint" />
+            <mxPoint x="310" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="67" y="350" />
+              <mxPoint x="213" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-36" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="cUD_TYmZiEuborudRk19-29">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="410" as="sourcePoint" />
+            <mxPoint x="160" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-37" value="" style="endArrow=none;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="cUD_TYmZiEuborudRk19-33">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="210" y="350" as="sourcePoint" />
+            <mxPoint x="320" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="363" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-38" value="" style="endArrow=none;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="cUD_TYmZiEuborudRk19-31">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="400" as="sourcePoint" />
+            <mxPoint x="263" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-39" value="關聯、泛化、&lt;br&gt;實現、依賴都&lt;br&gt;是一種關係" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="414" y="344" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-40" value="Thing" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="106" y="460" width="86" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-41" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="cUD_TYmZiEuborudRk19-40">
+          <mxGeometry y="26" width="86" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-42" value="Class" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="32" y="530" width="86" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-43" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="cUD_TYmZiEuborudRk19-42">
+          <mxGeometry y="26" width="86" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-46" value="Interface" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="530" width="86" height="34" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-47" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="cUD_TYmZiEuborudRk19-46">
+          <mxGeometry y="26" width="86" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-48" value="" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="cUD_TYmZiEuborudRk19-42" target="cUD_TYmZiEuborudRk19-40">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="50" y="510" as="sourcePoint" />
+            <mxPoint x="210" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="75" y="520" />
+              <mxPoint x="149" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-49" value="" style="endArrow=none;html=1;rounded=0;entryX=0.56;entryY=0.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="cUD_TYmZiEuborudRk19-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="520" as="sourcePoint" />
+            <mxPoint x="240" y="500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="239" y="520" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-50" value="類，接口都是&lt;br&gt;一種事物" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="276" y="480" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-51" value="Shape" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="101" y="610" width="96" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-53" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="cUD_TYmZiEuborudRk19-51">
+          <mxGeometry y="26" width="96" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-54" value="+ Draw()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cUD_TYmZiEuborudRk19-51">
+          <mxGeometry y="34" width="96" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-55" value="Circle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="37" y="720" width="96" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-56" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="cUD_TYmZiEuborudRk19-55">
+          <mxGeometry y="26" width="96" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-57" value="+ Draw()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cUD_TYmZiEuborudRk19-55">
+          <mxGeometry y="34" width="96" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-58" value="Rectangle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="165" y="720" width="96" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-59" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="cUD_TYmZiEuborudRk19-58">
+          <mxGeometry y="26" width="96" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-60" value="+ Draw()" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="cUD_TYmZiEuborudRk19-58">
+          <mxGeometry y="34" width="96" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-61" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.384;entryY=1.056;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="cUD_TYmZiEuborudRk19-55" target="cUD_TYmZiEuborudRk19-54">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="50" y="690" as="sourcePoint" />
+            <mxPoint x="210" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-62" value="" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.676;entryY=1.115;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="cUD_TYmZiEuborudRk19-58" target="cUD_TYmZiEuborudRk19-54">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="130" y="700" as="sourcePoint" />
+            <mxPoint x="290" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-63" value="類Circle、Rectangle&lt;br&gt;實現了接口Shape的&lt;br&gt;操作" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#d6b656;fillColor=#fff2cc;" vertex="1" parent="1">
+          <mxGeometry x="261" y="640" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="cUD_TYmZiEuborudRk19-64" target="cUD_TYmZiEuborudRk19-65">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-64" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;big mom:&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;學生&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-left:8px;&quot;&gt;&lt;br&gt;&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="79" y="910" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-75" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="cUD_TYmZiEuborudRk19-65" target="cUD_TYmZiEuborudRk19-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="cUD_TYmZiEuborudRk19-65" target="cUD_TYmZiEuborudRk19-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-77" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="cUD_TYmZiEuborudRk19-65" target="cUD_TYmZiEuborudRk19-68">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-65" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;703:card&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;no&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="220" y="910" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-79" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="cUD_TYmZiEuborudRk19-66" target="cUD_TYmZiEuborudRk19-69">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-66" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;喬巴:&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;一般用戶&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="84" y="1000" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-78" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="cUD_TYmZiEuborudRk19-67" target="cUD_TYmZiEuborudRk19-70">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-67" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;索羅:&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;操作員&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1000" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-80" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;endArrow=none;endFill=0;" edge="1" parent="1" source="cUD_TYmZiEuborudRk19-68" target="cUD_TYmZiEuborudRk19-71">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-68" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;路飛:&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;操作員&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="357" y="1000" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-69" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;703上機:&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;online&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="84" y="1100" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-70" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;703:&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;充值&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="220" y="1100" width="86" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cUD_TYmZiEuborudRk19-71" value="&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;今日帳單:&lt;/p&gt;&lt;p style=&quot;margin:0px;margin-top:4px;text-align:center;text-decoration:underline;&quot;&gt;CheceDay&lt;/p&gt;" style="verticalAlign=top;align=left;overflow=fill;fontSize=12;fontFamily=Helvetica;html=1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="357" y="1100" width="86" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
